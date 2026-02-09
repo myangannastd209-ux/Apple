@@ -1,0 +1,33 @@
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: auto;
+  font-style: normal;
+}
+body {
+  margin: 0;
+  background-color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.menu-icon {
+  display: none;
+}
+@media (max-width: 768px) {
+  .header {
+    display: none !important;
+  }
+  .items {
+    display: none;
+  }
+  .menu-icon {
+    display: block;
+  }
+}
+@media screen (min-width: 768px) {
+}
