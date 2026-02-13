@@ -67,3 +67,19 @@ a {
   height: 75px;
   background-image: url(./linearBackground.png);
 }
+.store1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 140px;
+  margin-top: 80px;
+}
+.need {
+  display: flex;
+  gap: 16px;
+  margin: 0%;
+}
+.hun {
+  width: 35px;
+  height: 35px;
+}
