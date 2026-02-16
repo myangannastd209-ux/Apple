@@ -6,6 +6,11 @@
 body {
   margin: 0;
   background-color: white;
+  gap: 60px;
+  display: flex;
+
+  padding-bottom: 100px;
+  flex-direction: column;
 }
 a {
   text-decoration: none;
@@ -32,6 +37,7 @@ a {
   align-items: center;
   background-color: rgba(245, 245, 247, 0.8);
   gap: 24px;
+  align-self: stretch;
 }
 .menu-icon {
   display: none;
@@ -40,7 +46,9 @@ a {
 .menu_icon {
   display: block;
 }
-
+.center {
+  align-self: stretch;
+}
 .header-text-1 {
   display: flex;
   justify-content: center;
@@ -72,14 +80,322 @@ a {
   justify-content: space-between;
   align-items: center;
   padding: 0 140px;
-  margin-top: 80px;
+
+  align-self: stretch;
 }
 .need {
   display: flex;
-  gap: 16px;
+  gap: 4px;
   margin: 0%;
+}
+.need0 {
+  gap: 4px;
+  margin: 0;
+}
+.need1 {
+  margin: 0;
+}
+.need2 {
+  margin: 0;
+}
+.need3 {
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.need4 {
+  margin: 0;
 }
 .hun {
   width: 35px;
   height: 35px;
+}
+.Store {
+  font-family: Inter;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52.01px; /* 118.205% */
+  background: linear-gradient(90deg, #0090f7 0%, #ba62fc 50%, #f2416b 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.gift {
+  color: #6e6e73;
+  font-family: Inter;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52.01px; /* 118.205% */
+}
+.need2 {
+  display: flex;
+  width: 125px;
+  height: 16px;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration-line: underline;
+  color: #06c;
+  margin: 0;
+}
+.need4 {
+  color: #06c;
+}
+.Section1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  flex-direction: column;
+  font-family: Inter;
+}
+.frame1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+}
+.Listitem {
+  width: 120px;
+  height: 78px;
+  justify-content: center;
+  align-items: center;
+}
+.Mac {
+  background-image: url(./storescetion1-images/sec1-1.png);
+  background-position: center;
+  background-size: cover;
+  height: 78px;
+  align-self: stretch;
+}
+.TEXT {
+  display: flex;
+  flex-direction: column;
+  padding: 2px 39px 2px 46px;
+  justify-content: flex-end;
+  align-items: center;
+  align-self: stretch;
+}
+.the {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 100px;
+}
+.the1 {
+  width: 130.87px;
+  height: 34px;
+}
+.the2 {
+  width: 331.64px;
+  height: 34px;
+}
+.Iphone {
+  background-image: url(./storescetion1-images/sec1-2.png);
+  background-position: center;
+  background-size: cover;
+  height: 78px;
+  align-self: stretch;
+}
+.Ipad {
+  background-image: url(./storescetion1-images/sec1-3.png);
+  background-position: center;
+  background-size: cover;
+  height: 78px;
+  align-self: stretch;
+}
+.watch {
+  background-image: url(./storescetion1-images/wacth.png);
+  background-position: center;
+  background-size: cover;
+  height: 78px;
+  align-self: stretch;
+}
+.Apple {
+  background-image: url(./storescetion1-images/sec1-5.png);
+  background-position: center;
+  background-size: cover;
+  height: 78px;
+  align-self: stretch;
+}
+.Pods {
+  background-image: url(./storescetion1-images/sec1-6.png);
+  background-position: center;
+  background-size: cover;
+  height: 78px;
+  align-self: stretch;
+}
+.Tags {
+  background-image: url(./storescetion1-images/sec1-7.png);
+  background-position: center;
+  background-size: cover;
+  height: 78px;
+  align-self: stretch;
+}
+.TV {
+  background-image: url(./storescetion1-images/sec1-8.png);
+  background-position: center;
+  background-size: cover;
+  height: 78px;
+  align-self: stretch;
+}
+.home {
+  background-image: url(./storescetion1-images/sec1-9.png);
+  background-position: center;
+  background-size: cover;
+  height: 78px;
+  align-self: stretch;
+}
+.Acce {
+  background-image: url(./storescetion1-images/sec1-10.png);
+  background-position: center;
+  background-size: cover;
+  height: 78px;
+  align-self: stretch;
+}
+.Card {
+  background-image: url(./storescetion1-images/sec1-11.png);
+  background-position: center;
+  background-size: cover;
+  height: 78px;
+  align-self: stretch;
+}
+.Section2 {
+  display: flex;
+  padding: 0 140px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+}
+.title {
+  height: 34px;
+  display: flex;
+  width: 467px;
+  align-items: center;
+  gap: 4px;
+}
+.title1 {
+  display: flex;
+  width: 130.87px;
+  height: 34px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 133.333% */
+  background: linear-gradient(90deg, #0090f7 0%, #ba62fc 50%, #f2416b 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.title2 {
+  display: flex;
+  width: 331.64px;
+  height: 34px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #6e6e73;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 133.333% */
+}
+.Section0 {
+  display: flex;
+  padding: 0 140px;
+  align-items: center;
+  gap: 48px;
+}
+.Section2 {
+  display: flex;
+  padding: 0 140px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+  margin-top: 80px;
+}
+.Store1 {
+  background-image: url(storescetion1-images/sec2-1.jpg);
+  width: 480px;
+  height: 500px;
+  background-size: contain;
+  border-radius: 18px;
+}
+.Title1 {
+  display: flex;
+  width: 132px;
+  height: 14px;
+  flex-direction: column;
+  justify-content: center;
+  color: #b64400;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 133.333% */
+}
+.Title2 {
+  align-self: stretch;
+  color: #1d1d1f;
+  font-family: Inter;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 123.077% */
+  letter-spacing: 0.196px;
+  margin: 0%;
+}
+.Title3 {
+  display: flex;
+  height: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-self: stretch;
+  color: #1d1d1f;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 111.111% */
+  margin: 8px;
+}
+.Store2 {
+  background-image: url(./storescetion1-images/sec2-2.jpg);
+  width: 480px;
+  height: 500px;
+  background-size: contain;
+  border-radius: 18px;
+}
+.Store3 {
+  background-image: url(./storescetion1-images/sec2-3.jpg);
+  width: 480px;
+  height: 500px;
+  background-size: contain;
+  border-radius: 18px;
+}
+.Store4 {
+  background-image: url(./storescetion1-images/sec2-4.jpg);
+  width: 480px;
+  height: 500px;
+  background-size: contain;
+  border-radius: 18px;
+}
+.Photo4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+}
+.zai1 {
+  margin-left: 30px;
+  margin-top: 30px;
 }
